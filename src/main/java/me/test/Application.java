@@ -1,6 +1,7 @@
 package me.test;
 
 import org.springframework.boot.SpringApplication;
+import org.springframework.boot.WebApplicationType;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 
@@ -23,6 +24,7 @@ public class Application {
 
         // ApplicationContext 이전에 발생하는 리스너 등록
         SpringApplication app = new SpringApplication(Application.class);
+        app.setWebApplicationType(WebApplicationType.NONE);
         app.run(args);
 
     }
