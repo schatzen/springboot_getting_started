@@ -1,0 +1,27 @@
+{
+  "groups": [
+    {
+      "name": "me",
+      "type": "me.test.EmilyProperties",
+      "sourceType": "me.test.EmilyProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "me.age",
+      "type": "java.lang.Integer",
+      "sourceType": "me.test.EmilyProperties"
+    },
+    {
+      "name": "me.fullname",
+      "type": "java.lang.String",
+      "sourceType": "me.test.EmilyProperties"
+    },
+    {
+      "name": "me.name",
+      "type": "java.lang.String",
+      "sourceType": "me.test.EmilyProperties"
+    }
+  ],
+  "hints": []
+}
