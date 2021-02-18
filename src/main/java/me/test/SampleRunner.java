@@ -17,11 +17,15 @@ public class SampleRunner implements ApplicationRunner {
     @Autowired
     EmilyProperties emilyProperties;
 
+    @Autowired
+    private String hello;
+
+
     @Override
     public void run(ApplicationArguments args) throws Exception {
         System.out.println("=======================");
-        System.out.println(emilyProperties.getFullname());
-        System.out.println(emilyProperties.getAge());
+        System.out.println(hello);
+        System.out.println(emilyProperties.getName());
         System.out.println("=======================");
     }
 }
